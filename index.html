@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio website</title>
+	<!---- CSS only ---->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!---- JavaScript Bundle with Popper ----->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	
+<!--------------------------------------hero Section start------------------------------------------>
+
+	<div class="hero" id="profile">
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"><h2 class="logo">Portfo<span>lio</span></h2></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portfolio</h5>
+				  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+					  <a class="nav-link active" aria-current="page" href="#profile">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#about">about</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skils">Skils</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">contacts</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						SOCIAL MEDIA
+					  </a>
+					  <ul class="dropdown-menu dropdown-mesnu-dark">
+						<li><a class="dropdown-item" href="https://www.facebook.com/">FACEBOOK</a></li>
+						<li><a class="dropdown-item" href="https://www.instagram.com/suraj_tarapurkar/">INSTAGRAM</a></li>
+						<li><a class="dropdown-item" href="https://www.linkedin.com/">LINKDIN</a></li>
+						<li>
+						  <hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item" href="https://twitter.com/Surajtarapurkar">TWITTER</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				  <form class="d-flex mt-3" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-success" type="submit">Search</button>
+				  </form>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+
+<!-------------------------------- containt ------------------------------------>
+		
+<div class="content" id="content">
+			<h4>Hello, my name is</h4>
+			<h1>SURAJ</h1>
+			<h1><span>TARAPURKAR</span></h1>
+			<h3>I'am Full Stack Web Developer</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form>
+			</div>
+		</div>
+
+	</div>
+	
+
+	<!-------------------------About section start------------------------------->
+
+	<section class="about" id="about">
+		<div class="main">
+			<img src="./images/profile.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a full stack java web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations and bussiness logic.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Let's Talk</button>
+				<br>
+				<br>
+				 <a href="./m1.jpg" download class="btn btn2">download resume</a>
+			</div>
+		</div>
+	</section>
+
+	<!---------------------------service section start----------------------------->
+
+	<div class="service" id="skils">
+		<div class="title">
+			<h2>Proficiency About IT</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<h5>Front End</h5>
+				<div class="pra">
+					<p>This is basically what elements of the software are visible by the end user and what their interactions with the system will be. Typically we want this to look good and user friendly so front end developers often have web design skills and can find their way around design tools like Photoshop.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<h5>Middle Ware</h5>
+				<div class="pra">
+					<p>Essentially Middleware links the front and back end of the system together acting as a bridge between the front and back end. It is often referred to as the glue between the data and the UI. The Middleware is therefore often where the business logic resides.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<h5>Back-End</h5>
+				<div class="pra">
+					<p>Typically this is the database that the software is built on which is not directly presented to the user. So once a user requests data, clicks on an option or issues a command of some sort through the UI, this is where the data is stored, found by the software, retrieved and then displayed back to the user.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--------------------------Contact Me----------------------->
+	
+	<div class="contact-me" id="contact-me">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">contact-me</a>
+	</div>
+	
+
+
+<!-----------------------Contact Start----------------------->
+
+		<div id="contact">
+			<div class="title2">
+				<h2>CONTACT DETAILS</h2>
+			</div>
+		
+			<div class="container">
+				<div class="row">
+						<div class="contact-left">
+							<p><h2>Suraj Tarapurkar</h2></p>
+							<p>For more, contact on given Details  or please click on the link below social media icons</p>
+							<p>contact-no :- 9595703535 </p>
+							<p>contact-email:- surajtarapurkar99@gmail.com</p>
+							
+							<div class="social">
+								<a href="facebook.com/starapurkar/"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://www.instagram.com/suraj_tarapurkar/"><i class="fab fa-instagram"></i></a>
+								<a href="https://twitter.com/Surajtarapurkar"><i class="fab fa-twitter"></i></a>
+								<a href="linkedin.com/in/suraj-tarapurkar-916949177/"><i class="fab fa-linkedin"></i></a>
+							</div>
+						</div>
+
+						<div class="contact-right">
+							<form name="submit-to-googlse-sheet">
+								<input type="text" name="Name" placeholder="Youre name" required>
+								<input type="email" name="Email" placeholder="Your Email" required>
+								<textarea name="Massage"  rows="5" placeholder="Your Massage"></textarea>
+								<button type="submit" class="btn btn2">SUBMIT</button>
+							</form>
+							
+							<span id="msg">
+								
+							</span>
+						</div>
+				</div>
+			</div>
+		</div>
+
+<!------------------- java script --------------------->
+
+		<script>
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbx0rFDzn1SObePObdIXzraIwnqDVTNf5rZEVoMU6gyhU-YktjIKulwMWNPgob1jaQV-hg/exec'
+			const form = document.forms['submit-to-googlse-sheet']
+			const msg = document.getElementById("msg")
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => 
+				{
+					msg.innerHTML="Message Sent Succesfully"
+					setTimeout(function(){
+						msg.innerHTML=""
+					},5000)
+					form.reset()
+				})
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script>
+</body>
+</html>
